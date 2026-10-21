@@ -20,12 +20,6 @@
 
 <header class="top">
   <a class="mark" href="#top">Правда или нет</a>
-  <nav class="nav" aria-label="Разделы">
-    <a class="nav-pill" href="#catalog">Каталог</a>
-    <a class="nav-pill" href="#face">Персонаж</a>
-    <a class="nav-pill" href="#motion">Видео</a>
-    <a class="nav-pill" href="#prices">Цены</a>
-  </nav>
   <a class="nav-write" href="https://www.avito.ru/brands/i316927261" target="_blank" rel="noopener">Написать на Авито</a>
 </header>
 
@@ -33,26 +27,38 @@
 
 <section class="hero">
   <div class="hero-copy">
-    <h1 class="hero-title">Правда<br>или нет?</h1>
-    <p class="hero-lede">Этот кадр никто не снимал. Фото и ролики для вашего бизнеса без студии, фотографа и модели. Первый кадр бесплатно.</p>
+    <p class="hero-contact">Авито: Маргарита<br>Отвечаю в тот же день</p>
+    <h1 class="hero-title"><span class="hero-name">Маргарита</span><span class="hero-word">ИИ-продакшн</span></h1>
+    <div class="hero-about">
+      <h2 class="hero-about-h">Обо мне</h2>
+      <p>Специалист в сфере ИИ-продакшна, бренд-коммуникаций и маркетинга. Высшее образование по маркетингу, РУДН.</p>
+      <p>Создаю фото и видео с пониманием особенностей бизнеса заказчика. Создавала портфолио для бренда с оборотом более 400 млн ₽ в год.</p>
+    </div>
     <a class="cta-ink" href="https://www.avito.ru/brands/i316927261" target="_blank" rel="noopener">Написать на Авито</a>
   </div>
   <figure class="hero-figure">
     <div class="verdict-frame">
-      <img src="media/w002.webp" width="1280" height="1600" alt="Девушка в тёмном пиджаке и галстуке, студийный портрет">
+      <img src="media/w002.webp" width="1280" height="1600" alt="Девушка в тёмном пиджаке и галстуке, кадр создан нейросетью">
       <div class="verdict" id="verdict" aria-live="polite">
         <p class="verdict-word" id="verdict-word">Нет.</p>
         <p class="verdict-line" id="verdict-line">Её не существует. Это кадр нейросети.</p>
       </div>
+      <figcaption class="game">
+        <span class="game-q">Она существует?</span>
+        <span class="game-pills">
+          <button class="game-pill" type="button" data-answer="yes">Правда</button>
+          <button class="game-pill" type="button" data-answer="no">Нет</button>
+        </span>
+      </figcaption>
     </div>
-    <figcaption class="game">
-      <span class="game-q">Она существует?</span>
-      <span class="game-pills">
-        <button class="game-pill" type="button" data-answer="yes">Правда</button>
-        <button class="game-pill" type="button" data-answer="no">Нет</button>
-      </span>
-    </figcaption>
   </figure>
+  <nav class="hero-nav" aria-label="Разделы">
+    <a class="hero-pill" href="#catalog">Каталог</a>
+    <a class="hero-pill" href="#face">Персонаж</a>
+    <a class="hero-pill" href="#motion">Видео</a>
+    <a class="hero-pill" href="#work">Раскадровка</a>
+    <a class="hero-pill" href="#prices">Цены</a>
+  </nav>
 </section>
 
 <section class="plate catalog" id="catalog">
@@ -171,7 +177,6 @@
 <section class="about" id="about">
   <div>
     <h2 class="h2">Кто за кадром</h2>
-    <p class="about-lead">Маргарита, маркетолог. Делаю не просто красивые кадры, а контент, который продаёт.</p>
   </div>
   <ul class="facts">
     <li><span class="fact-k">РУДН</span><span>Высшее образование по маркетингу</span></li>
